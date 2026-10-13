@@ -1,3 +1,9 @@
 spring:
   application:
     name: task-manager
+
+  profiles:
+    active: dev
+
+  flyway:
+    enabled: true
